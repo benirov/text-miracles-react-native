@@ -1,6 +1,6 @@
 import axios from "axios";
 
 const axiosClient = axios.create({
-    baseURL: 'https://textviewsmiracles.herokuapp.com/api/textviews'
+    baseURL: 'https://text-view-miracles-api.onrender.com/api'
 });
 export default axiosClient;
